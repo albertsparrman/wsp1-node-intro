@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(212, 228, 43);
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+    padding: 1rem;
+}
+
+nav > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    color: lightgray;
+}
